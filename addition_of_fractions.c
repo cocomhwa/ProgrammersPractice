@@ -24,6 +24,13 @@ int* solution(int denum1, int num1, int denum2, int num2) {
     return (answer);
 }
 /*
+문제
+첫 번째 분수의 분자와 분모를 뜻하는 denum1, num1, 두 번째 분수의
+분자와 분모를 뜻하는 denum2, num2가 매개변수로 주어집니다.
+두 분수를 더한 값을 기약 분수로 나타냈을 때 분자와 분모를
+순서대로 담은 배열을 return 하도록 solution 함수를 완성해보세요.
+
+풀이
 먼저 분모를 통일시켜주기 위하여 분모 분자에 각각 값을 곱함
 최대공약수를 구하는 방법은 유클리드호제법을 사용한 함수
 make_devisor를 만드는 방식으로 구현후 적용
